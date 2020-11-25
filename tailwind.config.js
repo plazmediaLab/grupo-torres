@@ -13,7 +13,26 @@ module.exports = {
         'true-gray': colors.trueGray,
         'light-blue': colors.lightBlue,
         'blue-gray': colors.blueGray,
-        amber: colors.amber
+        amber: colors.amber,
+        primary: {
+          lightest: '#D3E3EE',
+          light: '#84B1CF',
+          DEFAULT: '#4F90BB',
+          darkest: '#4782A8',
+          dark: '#DADCE7'
+        },
+        secondary: {
+          lightest: '#B7BCC4',
+          light: '#818A98',
+          DEFAULT: '#4B586C',
+          darkest: '#2D3541',
+          dark: '#4F90BB'
+        },
+        background: {
+          light: '#F6F9FC',
+          DEFAULT: '#EDF4F8',
+          dark: '#DDE0E3'
+        }
       }
     }
   },

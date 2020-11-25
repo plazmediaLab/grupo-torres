@@ -1,16 +1,26 @@
+import SeoHeader from 'components/layout/seo-header';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="container mx-auto grid place-content-center h-screen text-center">
+      <SeoHeader />
       <div>
-        <Image width={200} height={200} src="/isotype-color.png" />
+        <Image width={180} height={200} src="/isotype-color.png" alt="Logotipo Grupo Torres" />
       </div>
-      <h1 className="text-6xl uppercase font-bold text-blue-gray-600 mt-5">Grupo Torres</h1>
-      <p className="uppercase mt-3 text-2xl tracking-widest text-light-blue-600">bienes raíces</p>
+      <h1 className="text-4xl sm:text-6xl uppercase font-bold text-secondary mt-5">Grupo Torres</h1>
+      <p className="uppercase mt-3 text-xl sm:text-2xl tracking-widest text-primary">
+        bienes raíces
+      </p>
       <div className="flex flex-col items-center justify-center my-8 space-y-4">
         <Image src="/imagotype-dark.svg" width={140} height={30} />
         <small className="text-blue-gray-400 text-xl">Web en construcción</small>
+        <Link href="/home">
+          <a className="bg-white border border-secondary-darkest py-2 px-10 rounded hover:bg-secondary-darkest hover:text-white transition duration-200 ease-in-out">
+            Ver demo - página principal
+          </a>
+        </Link>
       </div>
     </div>
   );
