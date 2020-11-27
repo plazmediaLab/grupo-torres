@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container mx-auto grid place-content-center h-screen text-center">
       <SeoHeader />
       <div>
-        <Image width={180} height={200} src="/isotype-color.png" alt="Logotipo Grupo Torres" />
+        <Image width={250} height={250} src="/Perfil-500px.png" alt="Logotipo Grupo Torres" />
       </div>
       <h1 className="text-4xl sm:text-6xl uppercase font-bold text-secondary mt-5">Grupo Torres</h1>
       <p className="uppercase mt-3 text-xl sm:text-2xl tracking-widest text-primary">
@@ -15,7 +15,7 @@ export default function Home() {
       </p>
       <div className="flex flex-col items-center justify-center my-8 space-y-4">
         <Image
-          src="/Recurso 3.svg"
+          src="/imagotype-color.svg"
           width={200}
           height={50}
           className="opacity-50 hover:opacity-100"
