@@ -9,10 +9,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      margin: {
+        small: '0.15rem'
+      },
       colors: {
         'true-gray': colors.trueGray,
         'light-blue': colors.lightBlue,
         'blue-gray': colors.blueGray,
+        rose: colors.rose,
         amber: colors.amber,
         primary: {
           lightest: '#D3E3EE',
