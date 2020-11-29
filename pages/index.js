@@ -14,12 +14,7 @@ export default function Home() {
         bienes raíces
       </p>
       <div className="flex flex-col items-center justify-center my-8 space-y-4">
-        <Image
-          src="/imagotype-color.svg"
-          width={200}
-          height={50}
-          className="opacity-50 hover:opacity-100"
-        />
+        <Image src="/design-by-regular.svg" width={200} height={50} className="" />
         <small className="text-blue-gray-400 text-xl">Web en construcción</small>
         <Link href="/home">
           <a className="bg-white border border-secondary-darkest py-2 px-10 rounded hover:bg-secondary-darkest hover:text-white transition duration-200 ease-in-out">
