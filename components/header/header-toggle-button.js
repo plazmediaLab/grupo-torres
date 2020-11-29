@@ -21,7 +21,7 @@ export default function HeaderToggleButton() {
 
   return (
     <button
-      className="sm:hidden p-3 rounded-full hover:text-white hover:bg-secondary-darkest"
+      className="sm:hidden p-3 rounded-full hover:text-white hover:bg-secondary"
       onClick={handleToggleAction}>
       <svg
         className="w-6 h-6"
@@ -38,7 +38,7 @@ export default function HeaderToggleButton() {
         ReactDOM.createPortal(
           <button
             id="close-toggle"
-            className="close-toggle hidden sm:block bg-gray-400 opacity-25 cursor-default absolute top-0 left-0 w-full h-screen"
+            className="close-toggle sm:block bg-gray-400 opacity-25 cursor-default absolute top-0 left-0 w-full h-screen"
           />,
           document.getElementById('header-main-container')
         )}
@@ -48,7 +48,7 @@ export default function HeaderToggleButton() {
         }
         @media (min-width: 620px) {
           button.close-toggle {
-            display: none !important;
+            display: none;
           }
         }
       `}</style>

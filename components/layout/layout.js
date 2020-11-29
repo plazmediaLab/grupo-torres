@@ -10,7 +10,10 @@ export default function Layout({ children }) {
       <footer></footer>
       <style global jsx>{`
         body {
-          color: #2d3541;
+          color: #4b586c;
+        }
+        *:focus {
+          outline: none !important;
         }
       `}</style>
     </>
