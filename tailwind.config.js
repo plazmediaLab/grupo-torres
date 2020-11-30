@@ -9,6 +9,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        body: '0.8rem'
+      },
       margin: {
         small: '0.15rem'
       },

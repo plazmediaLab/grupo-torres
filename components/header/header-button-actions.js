@@ -4,9 +4,9 @@ export default function HeaderButtonActions() {
   return (
     <section className="mt-2 sm:mt-0 sm:ml-2 grid grid-cols-2 text-center gap-x-2 items-center">
       <Link href="/login">
-        <a className="flex items-center justify-center whitespace-nowrap border border-rose-500 bg-rose-500 hover:border-rose-600 hover:bg-rose-600 text-white py-2 px-4 rounded-md">
+        <a className="flex items-center justify-center whitespace-nowrap border border-rose-500 bg-rose-500 hover:border-rose-600 hover:bg-rose-600 text-white py-2 px-4 md:px-3 lg:px-5 rounded-md">
           <svg
-            className="w-5 h-5"
+            className="w-5 h-5 inline-block mr-1 sm:m-0 md:mr-1 lg:hidden"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
@@ -20,9 +20,9 @@ export default function HeaderButtonActions() {
         </a>
       </Link>
       <Link href="/sell-property">
-        <a className="flex items-center justify-center whitespace-nowrap border border-secondary-darkest hover:bg-secondary-darkest hover:text-white py-2 px-4 rounded-md">
+        <a className="flex items-center justify-center whitespace-nowrap border border-secondary-darkest hover:bg-secondary-darkest hover:text-white py-2 px-4 md:px-3 lg:px-5 rounded-md">
           <svg
-            className="w-6 h-6 inline-block"
+            className="w-5 h-5 inline-block mr-1 sm:m-0 md:mr-1 lg:hidden"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
