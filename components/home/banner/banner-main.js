@@ -1,10 +1,12 @@
 import Image from 'next/image';
-import BannerSlideContainer from './banner-slide-container';
+import BannerFormContainer from './form/banner-form-container';
+import BannerSlideContainer from './slide/banner-slide-container';
 
 export default function BannerMain() {
   return (
-    <section className="w-full overflow-hidden relative">
+    <section className="w-full relative z-10">
       <BannerSlideContainer />
+      <BannerFormContainer />
       <Image
         className="image-banner"
         src="/cover-home-page-main.jpg"

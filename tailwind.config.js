@@ -50,6 +50,7 @@ module.exports = {
         'true-gray': colors.trueGray,
         'light-blue': colors.lightBlue,
         'blue-gray': colors.blueGray,
+        teal: colors.teal,
         rose: colors.rose,
         amber: colors.amber,
         primary: {

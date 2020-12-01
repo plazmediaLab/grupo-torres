@@ -9,7 +9,7 @@ export default function BannerSlideContainer() {
       <style jsx>{`
         aside {
           height: 100%;
-          z-index: 1;
+          z-index: 10;
         }
       `}</style>
     </aside>

@@ -10,7 +10,7 @@ export default function BannerSlideContentInfo() {
         <Ground className="w-9 h-9 mb-2" fill="#F43F5E" />
         <p className="">
           519.16{' '}
-          <span>
+          <span className="text-body">
             m<sup>2</sup>
           </span>
         </p>
@@ -18,19 +18,19 @@ export default function BannerSlideContentInfo() {
       <div className="" title="Recamaras disponibles">
         <Betroom className="w-9 h-9 mb-2" fill="#F43F5E" />
         <p className="">
-          3 <span>Recamaras</span>
+          3 <span className="text-body">Recamaras</span>
         </p>
       </div>
       <div className="" title="Baños disponibles">
         <Bathroom className="w-9 h-9 mb-2" fill="#F43F5E" />
         <p className="">
-          2 <span>Baños</span>
+          2 <span className="text-body">Baños</span>
         </p>
       </div>
       <div className="" title="Estacionamientos en la propiedad">
         <Parking className="w-9 h-9 mb-2" fill="#F43F5E" />
         <p className="">
-          1 <span>Estacionamiento</span>
+          1 <span className="text-body">Estacionamiento</span>
         </p>
       </div>
       <style jsx>{`
