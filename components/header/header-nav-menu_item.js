@@ -3,12 +3,12 @@ export default function HeaderNavMenuItem({ title, label, children, link = true,
     <button
       {...props}
       title={title}
-      className="flex items-center w-full text-left whitespace-nowrap p-2 sm:py-4 sm:px-3 hover:bg-secondary hover:text-white">
+      className="flex items-center w-full text-left whitespace-nowrap p-2 sm:py-5 sm:px-3 hover:bg-secondary hover:text-white">
       {children}
       <span className="flex-1 sm:hidden lg:inline-block">{label}</span>
       {!link && (
         <svg
-          className="w-6 h-6 inline-block sm:mr-0 sm:ml-1"
+          className="w-4 h-4 inline-block sm:mr-0 sm:ml-1"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg">

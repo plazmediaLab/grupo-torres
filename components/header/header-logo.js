@@ -10,7 +10,7 @@ export default function HeaderLogo() {
       </Link>
       <style jsx>{`
         img {
-          min-width: 13rem !important;
+          min-width: 11rem !important;
         }
       `}</style>
     </div>

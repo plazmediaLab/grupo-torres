@@ -10,9 +10,39 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        body: '0.8rem'
+        body: [
+          '0.8rem',
+          {
+            letterSpacing: '0.025em',
+            lineHeight: '1.55'
+          }
+        ],
+        'title-lg': [
+          '2rem',
+          {
+            letterSpacing: '0.08rem',
+            lineHeight: '2.25rem'
+          }
+        ],
+        'title-card': [
+          '1.15rem',
+          {
+            letterSpacing: '0.06rem',
+            lineHeight: '1.35'
+          }
+        ],
+        'title-sub': [
+          '1rem',
+          {
+            letterSpacing: '0.05rem',
+            lineHeight: '1.15'
+          }
+        ]
       },
       margin: {
+        small: '0.15rem'
+      },
+      padding: {
         small: '0.15rem'
       },
       colors: {
