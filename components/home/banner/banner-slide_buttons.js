@@ -1,7 +1,7 @@
 export default function BannerSlideButtons() {
   return (
     <div className="absolute hidden sm:block ml-2 lg:ml-0">
-      <button className="p-2.5 text-rose-500 bg-white hover:bg-rose-500 hover:text-white">
+      <button className="p-button text-rose-500 bg-white hover:bg-rose-500 hover:text-white">
         <svg
           className="w-6 h-6"
           fill="currentColor"
@@ -14,7 +14,7 @@ export default function BannerSlideButtons() {
           />
         </svg>
       </button>
-      <button className="p-2.5 text-rose-500 bg-white hover:bg-rose-500 hover:text-white">
+      <button className="p-button text-rose-500 bg-white hover:bg-rose-500 hover:text-white">
         <svg
           className="w-6 h-6"
           fill="currentColor"

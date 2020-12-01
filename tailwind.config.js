@@ -43,7 +43,8 @@ module.exports = {
         small: '0.15rem'
       },
       padding: {
-        small: '0.15rem'
+        small: '0.15rem',
+        button: '0.625rem'
       },
       colors: {
         'true-gray': colors.trueGray,
