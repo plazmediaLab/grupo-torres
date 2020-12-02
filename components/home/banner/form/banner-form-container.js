@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import BannerFormContent from './banner-form_content';
 import BannerFormTapSelector from './banner-form_tap_selector';
 
 export default function BannerFormContainer() {
@@ -7,7 +8,7 @@ export default function BannerFormContainer() {
   return (
     <section className="container mx-auto relative bg-teal-500 p-5">
       <BannerFormTapSelector tapSelected={tapSelected} setTapSelected={setTapSelected} />
-      <form></form>
+      <BannerFormContent tapSelected={tapSelected} name="location" label="Locación" />
       <style jsx>{`
         section {
           z-index: 11;
