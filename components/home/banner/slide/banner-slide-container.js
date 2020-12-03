@@ -8,7 +8,7 @@ export default function BannerSlideContainer() {
         <BannerSlideButtons />
         <BannerSlideContent />
       </div>
-      <article className="row-start-1 sm:row-start-auto col-span-2 lg:col-span-1 block sm:hidden lg:block w-full lg:w-4/5 mt-8 sm:mt-10 place-self-center text-white text-title-card font-semibold p-5 rounded-lg bg-gray-900 bg-opacity-60 shadow-lg">
+      <article className="row-start-1 sm:row-start-auto col-span-2 lg:col-span-1 block sm:hidden lg:block w-full lg:w-4/5 mt-8 sm:mt-10 place-self-center text-white text-title-sub md:text-title-card font-semibold p-5 lg:p-10 rounded-lg bg-gray-900 bg-opacity-60 shadow-lg">
         &quot;Dedicados a promover predios, escriturar, regularizar, y entregar dominio pleno con
         todo lo relacionado con las bienes raices.&quot;
       </article>

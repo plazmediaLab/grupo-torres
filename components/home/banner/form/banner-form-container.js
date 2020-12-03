@@ -17,7 +17,7 @@ export default function BannerFormContainer() {
   return (
     <section
       ref={sectionForm}
-      className="container mx-auto relative bg-white p-5 grid place-items-center">
+      className="container mx-auto relative bg-white p-5 grid place-items-center shadow-lg">
       <BannerFormTapSelector tapSelected={tapSelected} setTapSelected={setTapSelected} />
       <BannerFormContent tapSelected={tapSelected} name="location" label="Locación" />
       <style jsx>{`
@@ -28,7 +28,7 @@ export default function BannerFormContainer() {
         @media (max-width: 768px) {
           section {
             width: 95%;
-            bottom: 150px;
+            bottom: 100px;
           }
         }
       `}</style>
