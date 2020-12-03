@@ -1,6 +1,6 @@
 export default function BannerSlideButtons() {
   return (
-    <div className="absolute hidden sm:block ml-3 lg:ml-0">
+    <div className="hidden sm:block">
       <button className="border-none p-button text-rose-500 bg-white hover:bg-rose-500 hover:text-white">
         <svg
           className="w-6 h-6"
@@ -27,11 +27,7 @@ export default function BannerSlideButtons() {
           />
         </svg>
       </button>
-      <style jsx>{`
-        div {
-          top: calc(20% - 44px);
-        }
-      `}</style>
+      <style jsx>{``}</style>
     </div>
   );
 }

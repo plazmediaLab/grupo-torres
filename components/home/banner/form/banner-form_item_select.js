@@ -12,8 +12,8 @@ export default function BannerFormItemSelect({ name, label, children }) {
           clipRule="evenodd"
         />
       </svg>
-      <label htmlFor={name} className="truncate">
-        <span className="mb-2 font-light block">{label}</span>
+      <label htmlFor={name}>
+        <span className="mb-2 font-light block truncate">{label}</span>
         <select
           name={name}
           id={name}

@@ -29,6 +29,9 @@ export default function Layout({ children }) {
         input[type='number'] {
           -moz-appearance: textfield;
         }
+        * {
+          border-radius: 0;
+        }
       `}</style>
     </>
   );

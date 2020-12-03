@@ -14,9 +14,9 @@ export default function BannerFormContent({ tapSelected }) {
 
   return (
     <form
-      className="grid grid-cols-2 sm:grid-cols-4 grid-rows-2 gap-x-7 gap-y-4"
+      className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-x-7 gap-y-4"
       onSubmit={(e) => handleSubmit(e)}>
-      <div className="col-span-2 sm:col-span-1">
+      <div className="col-span-2 md:col-span-1">
         <BannerFormItemSelect name="location" label="Locación">
           {ListStates.map(
             (item) => !item.disabled && <BannerFormItemSelectItem item={item} key={item.iata} />
@@ -74,17 +74,17 @@ export default function BannerFormContent({ tapSelected }) {
         name="rooms"
         label="Cuartos:"
         placeholder="Número de habitaciones"></BannerFormItemNumber>
-      <div className="grid col-span-2 sm:col-span-1">
+      <div className="grid col-span-2 md:col-span-1">
         <button
           type="submit"
-          className="p-3 sm:p-0 bg-rose-500 text-white border border-rose-500 row-start-2 uppercase tracking-wider font-semibold hover:border-rose-600 hover:bg-rose-600">
+          className="mt-2 md:m-0 p-3 md:p-0 bg-rose-500 text-white border border-rose-500 row-start-2 uppercase tracking-wider font-semibold hover:border-rose-600 hover:bg-rose-600">
           Buscar
         </button>
         <style jsx>{`
           div {
             grid-template-rows: 1.7rem auto;
           }
-          @media (max-width: 620px) {
+          @media (max-width: 768px) {
             div {
               grid-template-rows: repeat(2, auto);
             }

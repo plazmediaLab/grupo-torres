@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <BannerMain />
-      <div className="py-44 sm:py-14"></div>
+      <div className=""></div>
       <article className="container mx-auto">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, rerum beatae ducimus
@@ -26,6 +26,18 @@ export default function Home() {
           fugiat quae excepturi molestiae, deleniti voluptatem, commodi soluta obcaecati sint.
         </p>
       </article>
+      <style jsx>{`
+        div {
+          padding-top: 3.8rem;
+          padding-bottom: 3.8rem;
+        }
+        @media (max-width: 768px) {
+          div {
+            padding-top: 9.8rem;
+            padding-bottom: 9.8rem;
+          }
+        }
+      `}</style>
     </Layout>
   );
 }
