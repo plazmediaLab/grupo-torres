@@ -4,7 +4,7 @@ export default function BannerFormTapSelector({ tapSelected, setTapSelected }) {
   };
 
   return (
-    <div className="absolute text-title-sub leading-relaxed left-0">
+    <div className="absolute text-title-sub leading-relaxed left-5">
       <button
         onClick={(e) => handleClick(e)}
         value="rent"

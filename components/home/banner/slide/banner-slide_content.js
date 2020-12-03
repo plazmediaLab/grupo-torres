@@ -3,7 +3,7 @@ import BannerSlideContentInfo from './banner-slide_content_info';
 
 export default function BannerSlideContent() {
   return (
-    <article className="ml-2 lg:ml-0 sm:w-10/12 md:w-2/3 lg:w-6/12 xl:w-5/12 absolute left-0 bg-white p-5 hidden sm:block">
+    <article className="ml-3 lg:ml-0 sm:w-10/12 md:w-2/3 lg:w-6/12 xl:w-5/12 absolute left-0 bg-white p-5 hidden sm:block">
       <h3 className="text-title-lg font-semibold">North Greenwich Street</h3>
       <p className="my-1 text-title-card font-light">
         <svg
@@ -23,7 +23,7 @@ export default function BannerSlideContent() {
       <BannerSlideContentActions />
       <style jsx>{`
         article {
-          top: 25%;
+          top: 20%;
         }
       `}</style>
     </article>

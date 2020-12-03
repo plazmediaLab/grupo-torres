@@ -1,0 +1,28 @@
+[
+  { "iata": "CMX", "disabled": false, "name": "CIUDAD DE MEXICO", "municipios": [] },
+  { "iata": "GTO", "disabled": false, "name": "GUANAJUATO", "municipios": [] },
+  { "iata": "HGO", "disabled": true, "name": "HIDALGO", "municipios": [] },
+  { "iata": "JAL", "disabled": true, "name": "JALISCO", "municipios": [] },
+  { "iata": "MEX", "disabled": true, "name": "ESTADO DE MEXICO", "municipios": [] },
+  { "iata": "PUE", "disabled": true, "name": "PUEBLA", "municipios": [] },
+  { "iata": "QRO", "disabled": false, "name": "QUERETARO", "municipios": [
+      {"iata": "qro-01", "name": "Amealco de Bonfil", "disabled": true},
+      {"iata": "qro-02", "name": "Pinal de Amoles", "disabled": true},
+      {"iata": "qro-03", "name": "Arroyo Seco", "disabled": true},
+      {"iata": "qro-04", "name": "Cadereyta de Montes", "disabled": true},
+      {"iata": "qro-05", "name": "Colón", "disabled": false},
+      {"iata": "qro-06", "name": "Corregidora", "disabled": true},
+      {"iata": "qro-07", "name": "Ezequiel Montes", "disabled": false},
+      {"iata": "qro-08", "name": "Huimilpan", "disabled": true},
+      {"iata": "qro-09", "name": "Jalpan de Serra", "disabled": true},
+      {"iata": "qro-10", "name": "Landa de Matamoros", "disabled": true},
+      {"iata": "qro-11", "name": "El Marqués", "disabled": true},
+      {"iata": "qro-12", "name": "Pedro Escobedo", "disabled": true},
+      {"iata": "qro-13", "name": "Peñamiller", "disabled": true},
+      {"iata": "qro-14", "name": "Querétaro", "disabled": false},
+      {"iata": "qro-15", "name": "San Joaquín", "disabled": true},
+      {"iata": "qro-16", "name": "San Juan del Río", "disabled": true},
+      {"iata": "qro-17", "name": "Tequisquiapan", "disabled": false},
+      {"iata": "qro-18", "name": "Tolimán", "disabled": true}
+  ]}
+]

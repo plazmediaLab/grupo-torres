@@ -23,7 +23,7 @@ export default function BannerMain() {
       `}</style>
       <style jsx>{`
         section {
-          height: 70vh;
+          height: 600px;
         }
         @media (max-width: 620px) {
           section {

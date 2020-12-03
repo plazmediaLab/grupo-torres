@@ -1,0 +1,7 @@
+[
+  {"slug": "all-statuses", "name": "Todos los estados", "disabled": false},
+  {"slug": "available", "name": "Disponible", "disabled": false},
+  {"slug": "rent-agreed", "name": "Alquiler acordado", "disabled": false},
+  {"slug": "reserved", "name": "Reservado", "disabled": false},
+  {"slug": "sell-agreed", "name": "Vender acordado", "disabled": false}
+]

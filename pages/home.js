@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <BannerMain />
+      <div className="py-44 sm:py-14"></div>
       <article className="container mx-auto">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, rerum beatae ducimus

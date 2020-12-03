@@ -1,0 +1,15 @@
+[
+  {"slug": "all-materials", "name": "Todos los materiales", "disable": false},
+  {"slug": "block", "name": "Bloque", "disable": false},
+  {"slug": "brick", "name": "Ladrillo", "disable": false},
+  {"slug": "mixed", "name": "Mezclado", "disable": false},
+  {"slug": "prefab", "name": "Casa prefabricada", "disable": false},
+  {"slug": "stone", "name": "Roca", "disable": false},
+  {"slug": "wood", "name": "Madera", "disable": false}
+]
+
+
+
+
+
+

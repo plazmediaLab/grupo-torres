@@ -1,0 +1,8 @@
+[
+  {"slug": "all-property-types", "name": "Todas los tipos de propiedades", "disabled": false},
+  {"slug": "departament", "name": "Departamento", "disabled": false},
+  {"slug": "construction-zone", "name": "Area en construcción", "disabled": false},
+  {"slug": "condominium", "name": "Condominio", "disabled": false},
+  {"slug": "house", "name": "Casa", "disabled": false},
+  {"slug": "town", "name": "Villa", "disabled": false}
+]
