@@ -9,7 +9,7 @@ export default function RealStateLocationsContent() {
   ];
 
   return (
-    <ul className="container mx-auto grid grid-cols-3 gap-4 my-4">
+    <ul className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 my-4">
       {locations.map((item) => (
         <li className="h-12 bg-teal-500" key={item.slug} item={item}></li>
       ))}

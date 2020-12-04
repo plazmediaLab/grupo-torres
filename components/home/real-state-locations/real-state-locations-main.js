@@ -8,9 +8,18 @@ export default function RealSstateLocationsMain() {
         <p className="px-4 text-title-sub font-light">
           Encuentre una casa en venta o alquiler según la ubicación.
         </p>
+        <RealStateLocationsContent />
       </article>
-      <RealStateLocationsContent />
-      <style jsx>{``}</style>
+      <style jsx>{`
+        article {
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          article {
+            width: 95%;
+          }
+        }
+      `}</style>
     </section>
   );
 }
