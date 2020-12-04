@@ -1,5 +1,6 @@
 import BannerMain from 'components/home/banner/banner-main';
 import LastAddedPropertyesMain from 'components/home/last-added-properties/last-added-propertyes-main';
+import RealSstateLocationsMain from 'components/home/real-state-locations/real-state-locations-main';
 import SectionUsMain from 'components/home/section-us/section-us-main';
 import Layout from 'components/layout/layout';
 
@@ -9,6 +10,7 @@ export default function Home() {
       <BannerMain />
       <SectionUsMain />
       <LastAddedPropertyesMain />
+      <RealSstateLocationsMain />
     </Layout>
   );
 }

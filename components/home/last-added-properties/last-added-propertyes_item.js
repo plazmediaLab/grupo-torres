@@ -10,11 +10,13 @@ export default function LastAddedPropertyesItem({ item }) {
     <article className="shadow">
       <CardImageMain image={image} type={type} status={status} rating={rating} />
       <div className="p-4 bg-white">
-        <h3 className="text-title-card text-rose-500 mb-3 truncate">{name}</h3>
+        <h3 className="text-title-card text-rose-500 mb-3 truncate" title={name}>
+          {name}
+        </h3>
         <hr className="border-background-dark" />
-        <p className="flex items-center p-small text-title-sub font-light truncate my-2">
+        <p className="p-small text-title-sub font-light my-2 truncate" title={address}>
           <svg
-            className="w-4 h-4 inline-block mr-1"
+            className="w-4 h-4 inline-block mr-1 mb-small"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -49,7 +51,7 @@ export default function LastAddedPropertyesItem({ item }) {
           </div>
         </section>
         <Link href="/propertyes">
-          <a className="inline-block p-button bg-secondary-darkest text-white border border-secondary-darkest">
+          <a className="inline-block mt-1 p-button bg-secondary-darkest text-white border border-secondary-darkest">
             Más información
           </a>
         </Link>
