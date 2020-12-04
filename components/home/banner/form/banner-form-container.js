@@ -4,31 +4,19 @@ import BannerFormTapSelector from './banner-form_tap_selector';
 
 export default function BannerFormContainer() {
   const [tapSelected, setTapSelected] = useState('rent');
-  const [height, setHeight] = useState(0);
-
-  const sectionForm = useRef(null);
-
-  useEffect(() => {
-    if (window.document) {
-      setHeight(sectionForm.current.offsetHeight);
-    }
-  }, [sectionForm]);
 
   return (
-    <section
-      ref={sectionForm}
-      className="container mx-auto relative bg-white p-5 grid place-items-center shadow-lg">
+    <section className="container mx-auto relative bg-white p-5 grid place-items-center shadow-lg">
       <BannerFormTapSelector tapSelected={tapSelected} setTapSelected={setTapSelected} />
       <BannerFormContent tapSelected={tapSelected} name="location" label="Locación" />
       <style jsx>{`
         section {
           z-index: 11;
-          bottom: calc(${Math.floor(height / 2)}px);
+          bottom: 100px;
         }
         @media (max-width: 768px) {
           section {
             width: 95%;
-            bottom: 100px;
           }
         }
       `}</style>
