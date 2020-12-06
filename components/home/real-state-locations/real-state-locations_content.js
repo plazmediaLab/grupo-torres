@@ -7,7 +7,7 @@ export default function RealStateLocationsContent() {
       slug: 'QRO',
       available: 16,
       country: 'MXN',
-      image: '/locations/location-available-cmx.jpg'
+      image: '/locations/location-available-qro.jpg'
     },
     {
       name: 'Guanajuato',
