@@ -15,6 +15,7 @@ export default function BannerMain() {
         objectFit="cover"
         quality={60}
         priority={true}
+        placeholder={() => <div style={{ backgroundColor: 'grey' }} />}
       />
       <style global jsx>{`
         img.image-banner {

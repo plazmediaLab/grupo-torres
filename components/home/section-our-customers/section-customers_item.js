@@ -14,7 +14,13 @@ export default function SectionCustomersItem({ item, index }) {
         index === 2 && 'hidden lg:block'
       }`}>
       <div className="w-24 h-24 rounded-full border-4 border-white overflow-hidden absolute shadow-md">
-        <Image src={image} layout="fill" objectFit="cover" quality={20} />
+        <Image
+          src={image}
+          layout="fill"
+          objectFit="cover"
+          quality={20}
+          placeholder={() => <div style={{ backgroundColor: 'grey' }} />}
+        />
       </div>
       <h5 className="text-title-card font-semibold mt-1 mb-2">{customer}</h5>
       <p className="mb-3" title={comment}>
