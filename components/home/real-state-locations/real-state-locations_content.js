@@ -47,7 +47,7 @@ export default function RealStateLocationsContent() {
   ];
 
   return (
-    <ul className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 my-4">
+    <ul className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 my-4">
       {locations.map((item) => (
         <RealStateLocationsItem item={item} key={item.slug} />
       ))}
